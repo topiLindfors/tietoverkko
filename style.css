@@ -1,0 +1,69 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: "Calibri Light";
+    font-size: 40px;
+    margin: 4px;
+}
+p {
+    font-family: Arial;
+    font-size: 22px;
+    display: inline-block;
+    text-align: left;
+}
+p.img {
+    max-width: 50%;
+}
+img {
+    margin: 0 0 40px 80px;
+    width: 400px;
+    height: 270px;
+    display: inline-block;
+    vertical-align: top;
+    object-fit: cover;
+}
+section {
+    margin: auto;
+    padding-bottom: 40px;
+    max-width: 70%;
+}
+a {
+    text-decoration: none;
+    cursor: default;
+    color: inherit;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+.navbar, .nav {
+    font-family: "Calibri Light";
+    font-size: 32px;
+}
+.navbar {
+    box-shadow: 0 1px 8px gray;
+    background-color: #060621;
+}
+.nav {
+    margin: 2px 50px;
+    display: inline-block;
+    color: white;
+    cursor: default;
+}
+.nav:hover {
+    color: orange;
+}
+.selected {
+    text-decoration: white underline 2px;
+}
+.selected:hover {
+    text-decoration: black underline 2px;
+}
+.divline {
+    margin-bottom: 8px;
+    background-color: gray;
+    height: 2px;
+}
